@@ -30,4 +30,14 @@ from the image above running the sysmon with the config file and also checking i
 
 <img width="1093" height="465" alt="image" src="https://github.com/user-attachments/assets/56ecdde9-f0c2-4545-a897-c589d89254ff" />
 
-proceed to download splunk universal forwarder on windows VM
+proceed to download splunk universal forwarder on windows VM, and run as admin
+
+<img width="499" height="393" alt="image" src="https://github.com/user-attachments/assets/55d8c741-ec67-4dcf-847e-ca6c95b0a313" />
+
+Making sure I customize options for later I need to input splunk server IP from Ubuntu VM
+
+<img width="497" height="383" alt="image" src="https://github.com/user-attachments/assets/05d50e77-e955-4fc5-9ac1-e63959d657cd" />
+
+
+Now create a sysmon index on Ubuntu VM because this is where the logs are getting forward to and stored
+
