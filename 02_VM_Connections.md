@@ -24,5 +24,7 @@ Then find a community sysmon config file because of the vast amount of logs will
 
 Proceed with unzipping the file and with newly downloaded config file move it to the same folder for easer powershell command later
 
+<img width="752" height="467" alt="image" src="https://github.com/user-attachments/assets/2cf918b2-a339-48fa-b812-e6540d3b45dc" />
 
+from the image above running the sysmon with the config file and also checking in event viewer to see sysmon status
 
