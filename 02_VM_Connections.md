@@ -41,3 +41,41 @@ Making sure I customize options for later I need to input splunk server IP from 
 
 Now create a sysmon index on Ubuntu VM because this is where the logs are getting forward to and stored
 
+<img width="1105" height="454" alt="image" src="https://github.com/user-attachments/assets/70c6a16b-1bb4-4a55-9e6b-b8456181fbf4" />
+
+Now on Windows VM, go to Splunk Universal Forwarder install path and go to the local directory inside where you'll create a inputs.conf file
+
+Make sure to run the notepad as admin and paste code below
+
+<img width="481" height="169" alt="image" src="https://github.com/user-attachments/assets/1c8b2a89-f82e-42c3-8760-2fbdb2d9bbb0" />
+
+[WinEventLog://...] → tells the forwarder to monitor the Sysmon Operational Event Log.
+
+disabled = 0 → ensures it’s active.
+
+renderXml = true → sends full structured XML logs (better for Splunk parsing).
+
+index = sysmon → ships the logs into the sysmon index you created on your Ubuntu Splunk.
+
+<img width="648" height="117" alt="image" src="https://github.com/user-attachments/assets/4f5341d5-9602-4a30-b637-715f88194e2c" />
+
+Move back to powershell to restart the Splunk Forwarde service so it updates with the new info that was created with input.conf
+
+I ran into a troubleshooting issue where sysmons tried to read logs but got accessed denied so in order to fix go to services.msc from (win > R) and then click local system priviliges and restart once changes applied
+
+<img width="2522" height="267" alt="image" src="https://github.com/user-attachments/assets/eaed0f51-33ab-4744-86f9-245c0790db78" />
+
+<img width="1766" height="933" alt="image" src="https://github.com/user-attachments/assets/1411cc28-5122-41b5-8514-df4cab110127" />
+
+
+
+
+
+
+
+
+
+
+
+
+
