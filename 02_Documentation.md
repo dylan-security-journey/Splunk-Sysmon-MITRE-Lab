@@ -44,7 +44,8 @@ Unzip Sysmon, place the config file in the same folder, and run in **PowerShell 
 ```
 
 <img src="https://github.com/user-attachments/assets/23d9f523-3984-4eb9-bc56-97fe39881f72" width="700">
-<img src="https://github.com/user-attachments/assets/56ecdde9-f0c2-4545-a897-c589d89254ff" width="700">
+<img src="https://github.com/user-attachments/assets/81a3a842-f9ca-4be0-9ffd-55311cc901b9" width="700">
+
 
 Check Event Viewer under **Applications and Services Logs → Microsoft → Windows → Sysmon → Operational** to confirm events are being logged.
 
@@ -55,7 +56,7 @@ Check Event Viewer under **Applications and Services Logs → Microsoft → Wind
 Next, download the **Splunk Universal Forwarder** (Windows 64-bit MSI) and install it.  
 During setup, choose **"On-premises Splunk Enterprise instance"** and provide the **Ubuntu VM IP** and port `9997`.
 
-<img src="https://github.com/user-attachments/assets/81a3a842-f9ca-4be0-9ffd-55311cc901b9" width="700">
+<img src="https://github.com/user-attachments/assets/56ecdde9-f0c2-4545-a897-c589d89254ff" width="700">
 <img src="https://github.com/user-attachments/assets/55d8c741-ec67-4dcf-847e-ca6c95b0a313" width="700">
 <img src="https://github.com/user-attachments/assets/05d50e77-e955-4fc5-9ac1-e63959d657cd" width="700">
 
