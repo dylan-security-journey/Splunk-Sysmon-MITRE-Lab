@@ -67,7 +67,11 @@ I ran into a troubleshooting issue where sysmons tried to read logs but got acce
 
 <img width="1766" height="933" alt="image" src="https://github.com/user-attachments/assets/1411cc28-5122-41b5-8514-df4cab110127" />
 
+Now with the picture below you can now see how my splunk enterprise has successfully synced with my sysmons and splunk forwarder is connected and sending data appropriately 
 
+<img width="1546" height="824" alt="image" src="https://github.com/user-attachments/assets/af62dd64-9926-4a34-ad50-1e1c94ceafc4" />
+
+<img width="1840" height="776" alt="image" src="https://github.com/user-attachments/assets/865d90ec-cf71-48d2-9769-75d0efbed2e0" />
 
 
 
