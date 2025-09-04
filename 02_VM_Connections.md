@@ -28,3 +28,6 @@ Proceed with unzipping the file and with newly downloaded config file move it to
 
 from the image above running the sysmon with the config file and also checking in event viewer to see sysmon status
 
+<img width="1093" height="465" alt="image" src="https://github.com/user-attachments/assets/56ecdde9-f0c2-4545-a897-c589d89254ff" />
+
+proceed to download splunk universal forwarder on windows VM
