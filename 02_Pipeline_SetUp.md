@@ -132,7 +132,14 @@ You now have a working lab setup where:
 
 This is the same setup SOC teams use for **threat hunting, log aggregation, and incident response**.
 
+Download Splunk Ad-on for Sysmon because Splunk doesn't automatically parse raw XML data 
 
+<img width="1444" height="444" alt="image" src="https://github.com/user-attachments/assets/629543c8-8e65-4e87-9374-dbb41e4c7eba" />
+
+Proceed to paste this code in Ubuntu VM to extract archive add-on
+
+cd /opt/splunk/etc/apps/
+sudo tar -xvzf ~/Downloads/splunk-add-on-for-sysmon_*.tgz
 
 
 
